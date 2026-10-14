@@ -1,0 +1,8 @@
+[
+  {"transactionId":"TXN-2002","requestId":"REQ-2","idempotencyKey":"KEY-2","accountId":"ACC-201","transactionType":"DEBIT","amount":40,"currency":"INR","sequenceNumber":2,"eventTime":"2026-10-14T10:02:00Z","simulateTransientFailure":false},
+  {"transactionId":"TXN-2001","requestId":"REQ-1","idempotencyKey":"KEY-1","accountId":"ACC-201","transactionType":"CREDIT","amount":100,"currency":"INR","sequenceNumber":1,"eventTime":"2026-10-14T10:01:00Z","simulateTransientFailure":false},
+  {"transactionId":"TXN-2002","requestId":"REQ-2-DUP","idempotencyKey":"KEY-2","accountId":"ACC-201","transactionType":"DEBIT","amount":40,"currency":"INR","sequenceNumber":2,"eventTime":"2026-10-14T10:02:00Z","simulateTransientFailure":false},
+  {"transactionId":"TXN-2003","requestId":"REQ-3","idempotencyKey":"KEY-3","accountId":"ACC-201","transactionType":"CREDIT","amount":25,"currency":"INR","sequenceNumber":3,"eventTime":"2026-10-14T10:03:00Z","simulateTransientFailure":false},
+  {"transactionId":"TXN-2004","requestId":"REQ-4","idempotencyKey":"KEY-4","accountId":"ACC-202","transactionType":"DEBIT","amount":-10,"currency":"INR","sequenceNumber":4,"eventTime":"2026-10-14T10:04:00Z","simulateTransientFailure":false},
+  {"transactionId":"TXN-2005","requestId":"REQ-5","idempotencyKey":"KEY-5","accountId":"ACC-203","transactionType":"CREDIT","amount":500,"currency":"INR","sequenceNumber":1,"eventTime":"2026-10-14T10:05:00Z","simulateTransientFailure":true}
+]
